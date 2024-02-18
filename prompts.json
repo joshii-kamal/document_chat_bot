@@ -1,0 +1,9 @@
+{
+    "Hospital_name": "What is the name of the hospital?",
+    "Document_type" : "What is the category of document?",
+    "Section_number" : "What is the section number?",
+    "Section_description" : "What is the section about?",
+    "Sub_section_desc" : "What rate does the particular section contain?",
+    "Payment_terminology" : "What is the percentage of charge specified?",
+    "Diagnosis_Related_Group(DRG)_base_rate" : "What is the relative weight of the MSDRG?"
+}

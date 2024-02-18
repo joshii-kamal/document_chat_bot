@@ -5,3 +5,5 @@ langchain-core==0.1.23
 python-docx
 tiktoken
 faiss-cpu
+tabula-py
+docx2txt

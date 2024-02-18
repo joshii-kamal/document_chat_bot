@@ -12,6 +12,13 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import ChatPromptTemplate, PromptTemplate
 
+# from langchain.document_loaders.parsers.pdf import PDFPlumberParser
+
+from langchain_community.document_loaders import AmazonTextractPDFLoader
+import tabula
+
+
+
 Config = Config()
 
 os.environ["OPENAI_API_KEY"] = Config["open_ai"]["api_key"]
@@ -29,36 +36,47 @@ class Extractor:
         )  
 
 
-    def convert_docx_to_txt(self,docx_path, txt_path):
-        """
-        Convert a DOCX file to TXT.
+    def data_pre_processing(self,file_path):
+        splited_file_path = file_path.split("/")[1].split(".")
+        file_name = splited_file_path[0]
+        file_ext = splited_file_path[1]
 
-        Parameters:
-        - docx_path (str): Path to the input DOCX file.
-        - txt_path (str): Path to save the output TXT file.
-        """
-        try:
-            # Load the DOCX file
-            doc = Document(docx_path)
+        if(file_ext == "docx"):
+            doc_docx = Document(file_path)
 
-            # Extract text from paragraphs
-            text_content = []
-            for paragraph in doc.paragraphs:
-                text_content.append(paragraph.text)
+            with open(f"{file_name}.txt", 'w') as txt_file:
+                for paragraph in doc_docx.paragraphs:
+                    txt_file.write(paragraph.text + '\n')
 
-            # Save the text to a TXT file
-            with open(txt_path, 'w', encoding='utf-8') as txt_file:
-                txt_file.write('\n'.join(text_content))
-            
-            print(f"Conversion successful. TXT file saved at: {txt_path}")
+            # Extract tables
+            with open(f"{file_name}.txt", 'a') as txt_file:  # Append mode to add tables after text
+                for table in doc_docx.tables:
+                    for row in table.rows:
+                        for cell in row.cells:
+                            txt_file.write(cell.text + '\t')
+                        txt_file.write('\n')
+                    txt_file.write('\n')
 
-        except Exception as e:
-            print(f"Error converting DOCX to TXT: {e}")
+        elif(file_ext == "pdf"):
+            print("fileext::::::::::::",file_ext)
+            print("file_path::::::::::::",file_path)
+            tables_pdf = tabula.read_pdf(file_path, pages='all')
+
+            print("tables_pdf::::::::::::::::::::::::",tables_pdf)
+            with open(f"{file_name}pdf.txt", 'w') as txt_file:
+                for table in tables_pdf:
+                    txt_file.write(str(table))
+                    txt_file.write('\n\n')
+
 
     def plan_embedding_with_open_ai(self, plan_file):
         try:
             
-            loader = Docx2txtLoader(plan_file)
+            # loader = Docx2txtLoader(plan_file)
+            # documents = loader.load()
+
+            print("plan_file:::::::::::::",plan_file)
+            loader = TextLoader(plan_file)
             documents = loader.load()
 
             text_splitter = CharacterTextSplitter(
@@ -79,7 +97,7 @@ class Extractor:
     def prompt_executor_with_open_ai(self, query, vector_db):
 
         try:
-            context = vector_db.similarity_search(query=prompt, search_type="similarity")
+            context = vector_db.similarity_search(query=query, search_type="similarity")
             user_prompt_template = """
 
                 Answer the question based only on the query:
@@ -117,22 +135,30 @@ class Extractor:
 
 
 ex = Extractor()
-file_path = "./Sample_Payer_Contract.docx"
+file_path = "./Sample_Payer_Contract.pdf"
+
+ex.data_pre_processing(file_path)
 # txt_path = "./Sample_Payer_Contract.txt"
-# ex.convert_docx_to_txt(file_path, txt_path)
 
-vector_db = ex.plan_embedding_with_open_ai(file_path)
+# vector_db = ex.plan_embedding_with_open_ai(file_path)
 
-
-prompt = "List down all the codes of Rehabilitation"
-res = ex.prompt_executor_with_open_ai(prompt, vector_db)
-
-print("res:::::::::::::",res)
-
+# print("vector_db::::::::::::::::::::::::::::",vector_db)
+# value = "what is the rate of MRI"
+# res = ex.prompt_executor_with_open_ai(value, vector_db)
+# print("res::::::::::::::::::::::::::::",res)
 
 # with open('prompts.json', 'r') as file:
 #     # Load the JSON data
 #     data = json.load(file)
 
+# output = []
 # for key, value in data.items():
-#     print(f"{key}:::::::::::::::::::::::::::::::::::::::{value}\n\n")
+#     res = ex.prompt_executor_with_open_ai(value, vector_db)
+#     output.append({
+#         value : res
+#     })
+#     print("promt::::::::::::::::::::",value)
+
+# output = json.dumps(output)
+# with open("output.txt", 'a') as output_file:
+#     output_file.write(output)

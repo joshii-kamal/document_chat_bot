@@ -1,0 +1,275 @@
+Sample Hospital
+HOSPITAL REIMBURSEMENT ATTACHMENT
+Effective 02/01/2023
+Section 1
+ INPATIENT HOSPITAL SERVICES
+COMMERCIAL RATES
+
+HOSPITAL agrees to bill and accept as payment in full from PAYER the lesser of the rates as set out below or HOSPITAL’s billed charges, less any applicable Copayments due from Members, for Covered Services provided to all Commercial Members.
+
+Notwithstanding any other Diagnosis Related Group (DRG) payment rules that may exist or services identified in Table 1, the DRG Payment methodology used by PAYER is administered according to the following guidelines:
+
+DRG Base Rate:	The amount paid by PAYER for a DRG with a DRG Payment Weight of 1.0.
+			Rate
+ 		$ 14,630
+
+DRG Payment Weight:	The applicable prevailing DRG Payment Weights assigned to each DRG by CMS.
+
+The DRG Payments are calculated as follows:
+
+DRG Payment =	DRG Base Rate x DRG Payment Weight
+
+HOSPITAL agrees that payments made by PAYER according to the DRG Payment Methodology above are inclusive of all related supplies, materials, radiology, laboratory (technical and facility) therapies and drug and drug administration costs not otherwise specified for additional reimbursement in this Attachment.  In calculating the length of stay, the date of admission shall be included, but the date of discharge shall not be included.  All Total DRG Payments shall be based on the rate effective on the date of admission.  The Total DRG Payment provides reimbursement for all HOSPITAL services for pre-admission, same day, and post-discharge testing rendered to a Member within seventy-two (72) hours of an inpatient admission or discharge.
+
+Table 1
+
+Implantable Devices – Carveout payment:
+Implantable devices, Revenue codes 274, 275, 276 and 278, with EACH line ITEM, charges in excess of the threshold below will be reimbursed at 75% of charges.  These will pay in addition to per diem and case rate but will be excluded from stoploss payment calculation.  PAYER has right to audit invoices related to payments for implantable devices.  Hospital will notify PAYER in advance should the System algorithm be modified in a manner that would increase the mark-up to PAYER.
+				Threshold
+				$3,975
+Default Per Diem:
+In the event CMS does not assign a weight to a particular DRG, CMS assigns a weight of zero to a particular DRG, or a case is not assigned to a DRG but is Medically Necessary, reimbursement shall be a per diem rate of 	
+		Rate
+ 			$4,689
+
+Such cases shall be eligible for stoploss reimbursement.
+
+Transfers:
+In the event a Member is transferred from Hospital to another acute facility, Hospital reimbursement shall be calculated as follows, DRG Payment/ Arithmetic LOS x number of inpatient days at Hospital.  In no event shall the transfer payment exceed the Total DRG Payment.  PAYER will use the current arithmetic LOS as assigned by CMS which is publicly available through the CMS website.
+
+Stoploss:
+In the event Hospital’s total billed charges, minus charges for Implantable Devices, for a continuous inpatient admission exceeds the stoploss threshold below, contracted rate for the entire length of stay will be paid.  In addition, Hospital will receive reimbursement of 49% of billed charges in excess of stoploss threshold.  This Stoploss provision shall apply to all Inpatient claims, including claims that are reimbursed under Table 1 of this Attachment. 
+			Threshold
+				$178,621
+Example:
+Total Charges (minus Implantable Devices Device Charges):	$285,000.00 
+Contracted payment:	$25,000
+Stoploss Threshold:	$222,792  
+Additional Stoploss Payment:  (Total Charges) - (Stoploss Threshold) * 49%
+Total Reimbursement:  Contracted payment + Additional stoploss payment
+
+Updates
+The DRG groupers will be updated annually to reflect revisions and modifications to terminology and DRG codes made by CMS and the effective date of such updates shall be when CMS implements such revisions and modifications.  Such updates shall be incorporated herein without notice to Hospital but will be supplied to Hospital upon written request.
+
+
+
+
+
+
+
+
+Section 2
+ OUTPATIENT HOSPITAL SERVICES 
+COMMERCIAL RATES
+	
+Hospital agrees to accept as payment in full for covered services, the lesser of the rates listed for PAYER’s ASC Grouper Rates as set out below or Hospital’s billed charges for covered Ambulatory Surgical Services provided to Members, less any applicable Member Copayments.  
+
+PAYER’s ASC Groupers are based on the 2007 CMS Ambulatory Surgery Grouper listing but are supplemented to include additional codes that are not grouped by CMS.    PAYER assigns a grouper for these additional services by placing them in groupers with similar valued relative value units (RVUs)
+
+A complete list of PAYER’s ASC Groupers has been supplied to Hospital prior to the effective date of this Agreement, the receipt of which is hereby acknowledged by the provider.  This list will be updated to reflect revisions and modifications to terminology and CPT codes.  Such updates shall be incorporated herein without notice to Hospital but will be supplied to Hospital upon written request.  
+
+Hospital agrees that ambulatory surgical payment rates are all inclusive, including but not limited to the services of nurses, technicians, and other staff involved in patient care; the members use of the facility including but not limited to its operating room, recovery room, waiting room, surgical supplies, imaging, diagnostic testing, medical equipment, drugs, biologicals and pharmaceuticals; materials for anesthesia including the anesthesia; and any other miscellaneous supplies.  
+
+Additionally, the rates listed include pre-surgical testing when provided by Hospital within 72 hours prior to the surgical procedure.  
+
+Any code not identified by an ASC Grouper will be paid at the rate for Grouper 4 unless specified otherwise.
+
+PAYER's ASC Groupers above are paid per procedure.  If 2 surgeries are billed that fall into the same grouper, both will be paid.  Multiple procedure logic will be applied. 
+
+Payment for all surgical procedures (per grouper or per procedure) will be calculated at 100% for the primary procedure, 50% for the second procedure and 25% for each additional procedure.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ASC Grouper Carve Outs 
+Separate from the above, the following procedures shall be reimbursed at the rates set forth below.  All ASC grouper carve outs are paid on a per grouper methodology.  If 2 surgeries are billed that fall into the same grouper carve out, 1 case rate will be allowed.  For example, If 2 laparoscopic procedures listed below are billed, only 1 will be allowed.  If 1 laparoscopic procedure and 1 Arthroscopic procedure listed below are billed, both will be allowed.  If ASC grouper carve outs are billed with procedures that fall into PAYER’s ASC Groupers, both will be allowed.  Multiple surgery logic will be applied in all cases.
+
+
+Implantable Devices – Carveout payment:
+Implantable devices, Revenue codes 274, 275, 276 and 278, with EACH line ITEM, charges in excess of threshold below will be reimbursed at 75% of charges.  These will pay in addition to outpatient rates but will be excluded from stoploss payment calculation.  PAYER has right to audit invoices related to payments for implantable devices.  Hospital will notify PAYER in advance should the System algorithm be modified in a manner that would increase the mark-up to PAYER.
+			Threshold
+			  $3,975
+
+Other Outpatient Services
+
+Flat Fees are inclusive of all services performed within the stated category definition per claim.  Payment for Flat fees is made in addition to other Flat Fees.  However when undefined service categories, categories based upon a percentage of charge, and/or categories based upon a fee schedule are billed in conjunction with flat fee services, only the flat fees will be paid with no additional payment for the other services.   Per Unit Fees are considered to be Flat Fees and all of the above is applicable.
+
+Per date of service are inclusive of all services performed within the stated category definition per calendar day.  Payment for per date of service are only allowed in addition to percent of fee schedule, percent of charge or other per date of service categories and are not paid in addition to flat fees.  
+
+Fee Schedule Description
+
+PAYER’s  fee schedule is based on a fixed 2017 Medicare Resource Based Relative Value Scale (RBRVS) fee schedule and payment systems, including the site-of-service payment differential.  PAYER may have modified schedule to include codes and/or fees for services which are not covered by RBRVS (hereinafter “Gap Codes”).  In most cases, the Gap Codes are adjusted by PAYER using the relative value unit (“RVU”) multiplied by Medicare’s conversion factor and geographic factor to assign the fee.   A copy of the fee schedule will be made available to Hospital, upon request.   This fee schedule as provided to Hospital shall remain fixed through the term of this Agreement and will not be updated to include new codes/services not currently listed in fee schedule unless modified through Amendment signed by both parties. 
+
+
+Section 3
+Not Applicable
+
+Section 4
+Rate Changes
+
+4.1 Hospital agrees to participate in PAYER’s Hospital Incentive Program as described in the HospitAL incentive prograM Attachment.   Additionally, Hospital and PAYER agree to the following annual rate increase guidelines outlined in section 4.2 and 4.3.
+
+4.2 Percent of charge reimbursement rates:
+
+4.2 Percent of charge rates:
+
+In the event the Hospital establishes a global increase in its billed charges for services that are reimbursed at a percentage of billed charges in 2019 and 2020, Hospital agrees that if the rate increase results in an global increase in Hospital’s ChargeMaster in excess of five percent (5%), Hospital and PAYER shall adjust these percent of charge rates to PAYER so that no higher than a five percent (5%) increase shall be paid by PAYER in accordance with the reimbursement rates set out in this attachment.  In addition, Hospital agrees that the then current threshold amount for stoploss and implantable devices shall be adjusted upward by the amount of the actual percentage increase.  
+
+4.3 Fixed rates:
+
+Effective February 1, 2021 Hospital and PAYER agree the reimbursement amount for all services reimbursed on a fixed rate methodology, with the exception of those services reimbursed on a fee schedule, shall have a minimum inflator of five percent (5%), with a maximum inflator of six percent (6%), applied as set forth below. Hospital will participate in PAYER’s Hospital Incentive Program, for which Hospital will have the potential to earn an additional one percent (1%) over the minimum five percent (5%) increase, for a payment increase up to a maximum of six percent (6%) by meeting the performance standards as outlined in the Hospital Incentive Program.  If none of the Hospital Incentive Program performance standards are met, only the minimum inflator will apply. 
+
+Service	Codes	Methodology	Rate	
+Normal Delivery Mother Only	DRG  768, 796, 797, 798, 805, 806, 807
+ Rev codes 101-219	2 Day Case Rate	$4,499 	
+Cesarean Section Mother Only	DRG 783, 784, 785, 786, 787, 788
+ Rev codes 101-219	3 Day Case Rate	$6,526 	
+Additional Maternity Days
+Mother Only	DRG 774, 775, 765, 766, 767, 768	Per Diem	$817 	
+Level 1 Baby Nursery	Rev Codes: 170, 171, 179	Per Diem	$823 	
+Level 2 (NICU)
+	Rev Code 172	Per Diem	$3,281 	
+Level 3 (NICU)	Rev Code 173	Per Diem	$4,268 	
+Level 4 (NICU)	Rev Code 174	Per  Diem	$4,569 	
+SNF Services	Rev Codes: 190, 191, 192, 193, 194, and 199	Per Diem	$1,729 	
+Rehabilitation	Rev Codes 118, 128, 138, 148, 158	Per Diem	$2,201 	
+Bariatric Surgery	DRG 619, 620, 621	Case Rate	$23,624 	
+
+Grouper:	Methodology:	Rate	
+ASC 1	Per Procedure	$1,482 	
+ASC 2	Per Procedure	$1,981 	
+ASC 3	Per Procedure	$2,268 	
+ASC 4	Per Procedure	$2,801 	
+ASC 5	Per Procedure	$3,188 	
+ASC 6	Per Procedure	$3,006 	
+ASC 7	Per Procedure	$4,422 	
+ASC 8	Per Procedure	$3,658 	
+ASC 9	Per Procedure	$5,694 	
+ASC 10	Per Procedure	$168 	
+ASC 11	Per Procedure	$211 	
+ASC 12	Per Procedure	$299 	
+ASC 13	Per Procedure	$299 	
+ASC 14	Per Procedure	$321 	
+ASC 15	Per Procedure	$385 	
+ASC 16	Per Procedure	$394 	
+ASC 17	Per Procedure	$405 	
+ASC 18	Per Procedure	$445 	
+ASC 19	Per Procedure	$461 	
+ASC 20	Per Procedure	$474 	
+ASC 21	Per Procedure	$568 	
+ASC 22	Per Procedure	$568 	
+ASC 23	Per Procedure	$585 	
+ASC 24	Per Procedure	$585 	
+ASC 25	Per Procedure	$616 	
+ASC 26	Per Procedure	$643 	
+ASC 27	Per Procedure	$670 	
+ASC 28	Per Procedure	$731 	
+ASC 29	Per Procedure	$791 	
+ASC 30	Per Procedure	$818 	
+ASC 31	Per Procedure	$930 	
+ASC 32	Per Procedure	$990 	
+ASC 33	Per Procedure	$1,052 	
+ASC 34	Per Procedure	$1,066 	
+ASC 35	Per Procedure	$1,075 	
+ASC 36	Per Procedure	$1,095 	
+ASC 37	Per Procedure	$1,117 	
+ASC 38	Per Procedure	$1,330 	
+ASC 39	Per Procedure	$1,342 	
+ASC 40	Per Procedure	$1,387 	
+ASC 41	Per Procedure	$1,388 	
+ASC 42	Per Procedure	$1,436 	
+ASC 43	Per Procedure	$1,492 	
+ASC 44	Per Procedure	$1,538 	
+ASC 45	Per Procedure	$1,565 	
+ASC 46	Per Procedure	$1,659 	
+ASC 47	Per Procedure	$1,738 	
+ASC 48	Per Procedure	$1,761 	
+ASC 49	Per Procedure	$1,775 	
+ASC 50	Per Procedure	$1,819 	
+ASC 51	Per Procedure	$1,860 	
+ASC 52	Per Procedure	$1,879 	
+ASC 53	Per Procedure	$2,052 	
+ASC 54	Per Procedure	$4,412 	
+ASC 55	Per Procedure	$5,584 	
+ASC 56	Per Procedure	$5,537 	
+
+ASC Grouper CarveOuts	Codes	Rate	
+Lithotripsy	CPT Codes 43265, 50590, and 52353
+
+Rev 360-361,369,490,499,750, 790	$10,634 	
+Cardiac Catheterization / Pacemaker or Defibrillator Placement	CPT Codes 93451-93464, 93503-93505, 93530-93533, 93561-93572, 33206-33208, 33210-33214, 33216-33217, 33224-33225, 33240, 33249
+
+Rev 360-361,369,480,481,490,499,750	$11,529 	
+PTCA	CPT codes 92920, 92921, 92924, 92925, 92928, 92929, 92933, 92934, 92937, 92938, 92941, 92943, 92944, 92973-92975, 92977-92979, 92986, 92987, 92990, 92992, 92993, 92997, 92998, C9600-C9607, C9608
+
+Rev 360-361,369,480,481,490,499,750	$11,529 	
+Arthroscopic Procedures	CPT codes 29800-29847, 29850-29892, 29894-29898, 29899, 29900-29999
+
+Rev 360-361,369,490,499,750	$7,094 	
+Bariatric Procedures	CPT codes 43770-43774, 43659
+
+Rev 360-361,369,490,499,750	$15,075 	
+Laparoscopic Procedures	CPT codes 38120-38129, 38570-38589, 43279, 43280-43289, 43644-43645, 43647, 43648, 43651-43659, 44180, 44186-44188, 44202, 44203-44205, 44206-44238, 44970-44979, 45395, 45397, 45400, 45402, 45499, 47370-47371, 47379, 47560-47579, 49320-49329, 49650-49659, 50541-50549, 50945, 50947-50949, 51990-51992, 51999,54690-54699, 55550-55559, 55866, 57425, 58541-58554, 58570-58573,58578, 58660-58679, 59150-59151, 60650-60659, 63001-63066; HCPC codes: G0342, S2079
+
+Rev 360-361,369,490,499,750	$9,334 	
+Endoscopy/GI Procedures	CPT codes 43200-43205, 43212, 43215-43217,  43220, 43226, 43227,  43229, 43231, 43232,  43235-43251, 43255, 43257, , 43259-43264, 43266, 43270, , 43273, 43274, 43275, 43276, 43277, 43641, 43760, 43761, 43830-43832, 44360, 44361, 44363-44366, 44369, 44370, 44372, 44373, 44376-44380, 44382,  44384, 44385, 44386, 44388-44392, 44394, 44401, 44402, 45100, 45160, 45300, 45303, 45305, 45307-45309, 45315, 45317, 45320, 45321, 45327, 45330-45335, 45337, 45338, 45340, 45341, 45342, 45346, 45347,  45378, 45379, 45380, 45381, 45382,  45384, 45385, 45386, 45388,  45389, 45391, 45392 
+
+Rev 360-361, 369, 490, 499, 750, 759	$3,548 	
+
+Services	Codes Required	Methodology	Rate	
+Observation	Revenue Code  762	Flat Fee	$1,482 	
+Treatment Room	Revenue Codes 760, 761, 769	Per Date of Service	$1,373 	
+Trauma Team Activation
+
+*State Designated Facilities Only	Revenue Codes – 681-689	Flat Fee	$2,663 	
+Emergency Room	Revenue Codes - 450, 451, 452, 459
+
+Level I   – CPT code 99281
+Level II  – CPT code 99282
+Level III – CPT code 99283	Flat Fee 	$1,508 	
+Emergency Room	Revenue Codes - 450, 451, 452, 459
+
+Level IV – CPT code 99284
+Level V  – CPT code 99285
+
+Critical Care - CPT Code 99291
+Critical Care - CPT Code 99292	Flat Fee	$1,508 	
+Urgent Care	Revenue Code 456	Flat Fee	$214 	
+MRI	Revenue Codes - 610, 611, 612, 614-616, 618, 619	Flat Fee Per Scan	$1,330 	
+CT Scan	Revenue Codes - 350, 351, 352, 359	Flat Fee Per Scan	$1,152 	
+PET Scan	Revenue Code 404	Flat Fee Per Scan	$3,548 	
+Clinic Charges	Revenue Codes 510, 512, 515, 520, 521
+	Not payable as facility service.  Service should be billed by physician on a CMS 1500 Form.	$0 	
+Sleep Studies
+	CPT codes  95805 – 95811
+Revenue codes 740, 920, 929	Flat fee	$1,597 	
+Laboratory	Revenue Codes 300 – 319 or
+CPT Codes 80047-89398
+
+
+CPT 36415	% of fee schedule technical component
+
+$0.00	230%	
+Other Radiology Services Not Listed Above	Revenue Codes 320, 321, 322, 323, 324, 329 or 
+CPT Codes 70010-79999	% of fee schedule technical component	230%	
+Occupational Therapy	Revenue Codes 430, 431, 432, 433, 434, 439	Per Date of Service	$179 	
+Speech Therapy	Revenue Codes 440, 441, 442, 443, 444, 449	Per Date of Service	$179 	
+Physical Therapy	Revenue Codes 420-424, 429	Per Date of Service	$179 	
+Respiratory Therapy	Revenue Codes 410 - 419	Per Date of Service	$179 	
+HBO	Revenue Code 413	Per Date of Service	$4,022 	
+Dialysis	Revenue Codes 820-825, 829-835, 839-845, 849-855, 859	Per Date of Service	$711 	
+All other outpatient services not specified previously		% of fee schedule
+global component	230%	
+Services not listed above and not listed in XXX-XXX Fee Schedule			60% of Billed Charges	
+
